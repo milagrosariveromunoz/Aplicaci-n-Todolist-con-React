@@ -1,12 +1,40 @@
+h1 {
+    font-size: 40px;
+    font-style:inherit;
+    color:blue;
+    margin: 50px;
+}
+.container {
+    width:40%;
+    color: aquamarine;
+}
+.card {
+    width: 15rem;
+    margin:auto;
+    text-align: left;
+    color:aquamarine
+}
 
-/* 
+.card-footer {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+input {
+    color: aquamarine;
+    border: 10px; ;
+    outline: 10px;;
+    height: 30px;
+    padding-left: 22px;
+}
+p {
+    margin:none;
+}
+.futer {
+    width:35rem;
+}
+.fuser {
+    border-bottom: 2px solid;
+    color:aquamarine
+}
